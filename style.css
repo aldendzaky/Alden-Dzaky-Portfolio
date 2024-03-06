@@ -1,0 +1,848 @@
+* {
+
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: "Poppins", san-serif;
+
+}
+
+body{
+
+    min-height:100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #5d83fc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+
+    position: relative;
+    font-size: 18px;
+    color: #5d83fc;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px
+
+}
+
+.navbar a::before{
+
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #5d83fc;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+
+    width: 100%;
+
+}
+
+.section1{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text{
+
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-right: 0px;
+}
+
+.section1 h1{
+
+    font-size: 60px;
+    color: #212121;
+    margin:0;
+}
+
+span{
+
+    color: #5d83fc;
+}
+
+.section1 p {
+    font-size: 24px;
+    padding-top: 20px;
+    color: #606163;
+    line-height: 40px;
+}
+
+.section1 img{
+
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section2 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.text_profile{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.section2 img{
+    margin-left: 5%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.section2 h1{
+
+    font-size: 50px;
+    color: #212121;
+    /* margin-left: 5%; */
+}
+
+.section2 p {
+    margin-top : 2%;
+    font-size : 24px;
+}
+
+.edu-title{
+
+    font-size: 50px;
+    color: #212121;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.section3{
+    position: relative;
+    max-width: 1200px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.container{
+
+    padding: 10px 20px;
+    position: relative;
+    width: 50%;
+
+}
+
+.text-box1{
+
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    font-size: 15px;
+    position: relative;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    max-width: 92%;
+    display: flex;
+}
+
+.text-box2{
+
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    font-size: 15px;
+    position: relative;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    max-width: 95%;
+    display: flex;
+    margin-left: 8%;
+}
+
+.text-box3{
+
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    font-size: 15px;
+    position: relative;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    max-width: 92%;
+    display: flex;
+}
+
+.text-box1 img{
+
+    margin-left: 35%;
+}
+
+.text-box2 img{
+
+    margin-left: 35%;
+}
+
+.text-box3 img{
+
+    margin-left: 6%;
+}
+
+.logo_spentig{
+    height: 70px;
+}
+
+.logo_moklet{
+    height: 70px;
+}
+
+.logo_upn{
+    height: 70px;
+}
+
+.left-container{
+    
+    margin-right: 50%;
+    left: 0;
+}
+
+.right-container{
+
+    left: 50%;
+}
+
+.section3::after{
+
+    content:'';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #212121;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.dot1 {
+        height: 20px;
+        width: 20px;
+        background-color: #212121;
+        border-radius: 50%;
+        position: absolute;
+        top: 12%;
+        right: 49.2%;     
+}
+
+.dot2 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    right: 49.2%;     
+}
+
+.dot3 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 79%;
+    right: 49.2%;     
+}
+
+.organ-title{
+
+    font-size: 50px;
+    color: #212121;
+    margin-top: 10%;
+    text-align: center;;
+}
+
+.section4 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.foto-organ{
+
+    margin-right: 5%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.text-organ{
+
+    margin-top:2%;
+    margin-left:9%;
+}
+
+
+.text-organ h2{
+
+    font-size: 28px;
+}
+
+.text-organ small {
+
+    font-size: 18px;
+}
+
+.text-organ h3 {
+
+    font-size: 24px;
+}
+
+
+.info-organ2{
+
+    margin-top: 10%;
+
+}
+
+.info-organ3{
+
+    margin-top: 10%;
+
+}
+
+.section4::after{
+
+    content:'';
+    position: absolute;
+    width: 6px;
+    /* height: 393px; */
+    background: #212121;
+    top: 327%;
+    right: 94.5%;
+    border-radius: 50px;
+}
+
+.dot4 {
+    height: 20px;
+    width: 20px;
+    background-color:#212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 420%;
+    right: 94.05%;
+}
+
+.dot5 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 441.5%;
+    right: 94.05%;
+}
+
+.dot6 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 463%;
+    right: 94.05%;
+}
+
+.work-title{
+
+    font-size: 50px;
+    color: #212121;
+    margin-top: 10%;
+    text-align: center;;
+}
+
+.section5 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.foto-work{
+
+    margin-left: 5%;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.section5::after{
+    content:'';
+    position: absolute;
+    width: 6px;
+    /* height: 393px; */
+    background: #212121;
+    top: 327%;
+    right: 94.5%;
+    border-radius: 50px;
+}
+
+.text-work{
+
+    margin-top:2%;
+    margin-right:31%;
+}
+
+
+.text-work h2{
+
+    font-size: 28px;
+}
+
+.text-work small {
+
+    font-size: 18px;
+}
+
+.text-work h3 {
+
+    font-szie: 24px;
+}
+
+
+.info-work2{
+
+    margin-top: 10%;
+
+}
+
+.info-work3{
+
+    margin-top: 10%;
+
+}
+
+.dot7 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 528%;
+    left: 40%;
+}
+
+.dot8 {
+    height: 20px;
+    width: 20px;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    top: 546%;
+    left: 40%;
+}
+
+.section6{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.section6 .box-photo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section6 .box-photo .photo{
+
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
+
+.section6 .box-photo .photo img{
+
+   width: 100%;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   border-radius: 5%;
+
+}
+
+.artworks-title{
+
+    font-size: 50px;
+    color: #212121;
+    margin-top: 10%;
+    text-align: center;;
+}
+
+#topbtn{
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    background: #5d83fc;
+    color: white;
+    border:none;
+    border-radius: 450%;
+    cursor: pointer;
+}
+
+.popup{
+
+    width:100%;
+    height:100%;
+    position:fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top:0;
+    display:none;
+}
+
+
+.popup_content {
+    text-align: center; /* Center the content */
+    position: relative; /* Make it a positioned parent for absolute positioning of children */
+}
+
+.popup_content img {
+    max-width: 90%; /* Prevent the image from overflowing the popup */
+    height: 90vh; /* Maintain aspect ratio */
+    width: auto;
+    margin: 0 auto; /* Center the image */
+}
+
+.close {
+    display: block; /* Make the close button a block element */
+    width: fit-content; /* Fit the width to its content */
+    margin: 20px auto 0; /* Center the close button and give it a top margin */
+    color: #fff;
+    cursor: pointer;
+}
+
+.sectionskill{
+
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.skilltitle{
+
+    font-size: 50px;
+    color: #212121;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+.skill-main{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap:25px;
+
+}
+
+.skill-main .skill-bar .info{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.skill-bar .info .percent{
+
+    font-weight: bold;
+}
+
+.skill-bar .bar {
+
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0,0,0,0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.skill-bar .bar span{
+
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #5d83fc;
+    border-radius: 25px;
+}
+
+.skill-bar .bar .html{
+
+    width: 90%;
+    animation: html 3s;
+
+}
+
+@keyframes html{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+
+.skill-bar .bar .css{
+
+    width: 75%;
+    animation: css 3s;
+
+}
+
+@keyframes css{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 75%;
+    }
+}
+
+.skill-bar .bar .photography{
+
+    width: 90%;
+    animation: photography 3s;
+
+}
+
+@keyframes photography{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+
+.skill-bar .bar .UIUX{
+
+    width: 80%;
+    animation: UIUX 3s;
+
+}
+
+@keyframes UIUX{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill-bar .bar .graphicdesign{
+
+    width: 70%;
+    animation: graphicdesign 3s;
+
+}
+
+@keyframes graphicdesign{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
+
+.skill-bar .bar .videoedit{
+
+    width: 75%;
+    animation: videoedit 3s;
+
+}
+
+@keyframes videoedit{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 75%;
+    }
+}
+
+.skill-bar .bar .figma{
+
+    width: 90%;
+    animation: figma 3s;
+
+}
+
+@keyframes figma{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+
+.skill-bar .bar .photoshop{
+
+    width: 70%;
+    animation: photoshop 3s;
+
+}
+
+@keyframes photoshop{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
+
+.skill-bar .bar .illustrator{
+
+    width: 70%;
+    animation: illustrator 3s;
+
+}
+
+@keyframes illustrator{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
+
+.skill-bar .bar .adobexd{
+
+    width: 80%;
+    animation: adobexd 3s;
+
+}
+
+@keyframes adobexd{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill-bar .bar .ramah{
+
+    width: 90%;
+    animation: ramah 3s;
+
+}
+
+@keyframes ramah{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+
+.skill-bar .bar .jujut{
+
+    width: 80%;
+    animation: jujur 3s;
+
+}
+
+@keyframes jujur{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill-bar .bar .publicspeaking{
+
+    width: 80%;
+    animation: publicspeaking 3s;
+
+}
+
+@keyframes publicspeaking{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill-bar .bar .problemsolve{
+
+    width: 70%;
+    animation: problemsolve 3s;
+
+}
+
+@keyframes problemsolve{
+
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
